@@ -1,0 +1,60 @@
+# ---------------------------------------------------------------------------
+# Unreal Engine 5 project ignores
+# Everything here is regenerable build output or machine-local state.
+# ---------------------------------------------------------------------------
+
+# Build / cache output (regenerable, can be tens of GB)
+Binaries/
+DerivedDataCache/
+Intermediate/
+Build/
+Saved/
+
+# ---------------------------------------------------------------------------
+# Binary / oversized content -- deliberately NOT tracked.
+#
+# This repo tracks the text surface only: project config, docs, and Claude
+# skills. The excluded trees total ~17.6 GB and contain 12 files above
+# GitHub's 100 MB per-file hard limit, so they cannot be pushed as plain Git.
+# They are also opaque binaries that no code review can diff. They live on
+# disk exactly as before -- nothing here deletes or moves them.
+# ---------------------------------------------------------------------------
+
+# Unreal content: .uasset / .umap binaries (~7.5 GB, 5,499 files)
+Content/
+
+# Distribution archives (~6.9 GB; one 6.4 GB zip, one 490 MB rar)
+ArchvizExplorer_Files/
+
+# Plugins: ArcGISMapsSDK is a ~3.3 GB third-party binary SDK, and VibeUE is a
+# separate upstream repo (github.com/kevinpbuckley/VibeUE) whose nested .git
+# would otherwise be recorded as a broken gitlink.
+Plugins/
+
+# Stock UI blueprint backup (.uasset binaries)
+_StockUIBackup_5.8/
+
+# Cesium tile cache (machine-local, regenerates on demand)
+cesium-request-cache.sqlite
+
+# IDE / toolchain
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.sdf
+*.opensdf
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+*.xcodeproj
+*.xcworkspace
+
+# OS noise
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Local Claude Code state (skills and project config ARE tracked)
+.claude/settings.local.json

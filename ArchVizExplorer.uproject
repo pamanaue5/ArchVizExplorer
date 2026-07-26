@@ -1,0 +1,230 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.8",
+	"Category": "",
+	"Description": "",
+	"Plugins": [
+		{
+			"Name": "Volumetrics",
+			"Enabled": true
+		},
+		{
+			"Name": "SunPosition",
+			"Enabled": true
+		},
+		{
+			"Name": "CesiumForUnreal",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/87b0d05800a545d49bf858ef3458c4f7",
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Linux",
+				"Android",
+				"IOS"
+			]
+		},
+		{
+			"Name": "MCPClientToolset",
+			"Enabled": true
+		},
+		{
+			"Name": "ModelContextProtocol",
+			"Enabled": true
+		},
+		{
+			"Name": "AIModuleToolset",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimationAssistantToolset",
+			"Enabled": true
+		},
+		{
+			"Name": "AutomationTestToolset",
+			"Enabled": true
+		},
+		{
+			"Name": "ConfigSettingsToolset",
+			"Enabled": true
+		},
+		{
+			"Name": "DataflowAgent",
+			"Enabled": true
+		},
+		{
+			"Name": "DataRegistryToolset",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorToolset",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveCodingToolset",
+			"Enabled": true
+		},
+		{
+			"Name": "Avalanche",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Mac"
+			]
+		},
+		{
+			"Name": "MVVMToolset",
+			"Enabled": true
+		},
+		{
+			"Name": "PCGExtendedToolkit",
+			"Enabled": true
+		},
+		{
+			"Name": "PCGToolset",
+			"Enabled": true
+		},
+		{
+			"Name": "NiagaraToolsets",
+			"Enabled": true
+		},
+		{
+			"Name": "SemanticSearchToolset",
+			"Enabled": true
+		},
+		{
+			"Name": "SequencerAnimMixerToolset",
+			"Enabled": true
+		},
+		{
+			"Name": "SlateInspectorToolset",
+			"Enabled": true
+		},
+		{
+			"Name": "StateTreeToolset",
+			"Enabled": true
+		},
+		{
+			"Name": "WorldConditionsToolset",
+			"Enabled": true
+		},
+		{
+			"Name": "MetaHumanDepthProcessing",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		},
+		{
+			"Name": "EditorWebBrowser",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/8abe5fefdc444e42830a5753f25fb121"
+		},
+		{
+			"Name": "LearningCore",
+			"Enabled": true
+		},
+		{
+			"Name": "JsonBlueprintUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "RuntimeDataTable",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/4c7c4f8d523f4c90b2e26d23502c526c"
+		},
+		{
+			"Name": "StreamlineDLSSG",
+			"Enabled": true,
+			"MarketplaceURL": "https://www.unrealengine.com/marketplace/en-US/product/nvidia-dlss"
+		},
+		{
+			"Name": "DLSS",
+			"Enabled": true,
+			"MarketplaceURL": "https://www.unrealengine.com/marketplace/en-US/product/nvidia-dlss"
+		},
+		{
+			"Name": "GeForceNOWWrapper",
+			"Enabled": true
+		},
+		{
+			"Name": "NIS",
+			"Enabled": true,
+			"MarketplaceURL": "https://www.unrealengine.com/marketplace/en-US/product/nvidia-dlss"
+		},
+		{
+			"Name": "StreamlineReflex",
+			"Enabled": true,
+			"MarketplaceURL": "https://www.unrealengine.com/marketplace/en-US/product/nvidia-dlss"
+		},
+		{
+			"Name": "StreamlineDeepDVC",
+			"Enabled": true,
+			"MarketplaceURL": "https://www.unrealengine.com/marketplace/en-US/product/nvidia-dlss"
+		},
+		{
+			"Name": "DLSSMoviePipelineSupport",
+			"Enabled": true,
+			"MarketplaceURL": "https://www.unrealengine.com/marketplace/en-US/product/nvidia-dlss"
+		},
+		{
+			"Name": "Black_Eye",
+			"Enabled": true
+		},
+		{
+			"Name": "MetaRoad",
+			"Enabled": true
+		},
+		{
+			"Name": "PCGBiomeCore",
+			"Enabled": true
+		},
+		{
+			"Name": "PCGBiomeSample",
+			"Enabled": true
+		},
+		{
+			"Name": "PCGExternalDataInterop",
+			"Enabled": true
+		},
+		{
+			"Name": "PCGInstancedActorsInterop",
+			"Enabled": true
+		},
+		{
+			"Name": "PCGMeshPartitionInterop",
+			"Enabled": true
+		},
+		{
+			"Name": "PCGNaniteAssembliesInterop",
+			"Enabled": true
+		},
+		{
+			"Name": "PCGNiagaraInterop",
+			"Enabled": true
+		},
+		{
+			"Name": "PCGPythonInterop",
+			"Enabled": true
+		},
+		{
+			"Name": "PCGWaterInterop",
+			"Enabled": true
+		},
+		{
+			"Name": "PCGPrimitives_MeshPartitionInterop",
+			"Enabled": true
+		},
+		{
+			"Name": "PCGPrimitives",
+			"Enabled": true
+		},
+		{
+			"Name": "PCGFastGeoInterop",
+			"Enabled": true
+		}
+	]
+}

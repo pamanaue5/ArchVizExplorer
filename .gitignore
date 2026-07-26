@@ -37,6 +37,15 @@ _StockUIBackup_5.8/
 # Cesium tile cache (machine-local, regenerates on demand)
 cesium-request-cache.sqlite
 
+# Working image files at the project root that Unreal does not consume.
+# ArchVizExplorer.png IS tracked -- UE picks it up as the project thumbnail by
+# filename convention. These two are not wired to anything: SplashAV.png needs
+# a DefaultEngine.ini entry or Content/Splash/ placement before UE will show
+# it, and ArchVizExplorerMAP.png is byte-identical to the thumbnail. Both stay
+# on disk; they are just kept out of a deliberately text-only repo.
+ArchVizExplorerMAP.png
+SplashAV.png
+
 # IDE / toolchain
 .vs/
 .vscode/

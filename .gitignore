@@ -34,8 +34,21 @@ Plugins/
 # Stock UI blueprint backup (.uasset binaries)
 _StockUIBackup_5.8/
 
-# Cesium tile cache (machine-local, regenerates on demand)
-cesium-request-cache.sqlite
+# Cesium tile cache (machine-local, regenerates on demand). The glob is
+# deliberate: SQLite writes -shm and -wal sidecar files next to the database in
+# WAL mode, and they appear and vanish as the cache is used. Without the glob
+# they show up as untracked files, which fails Finn-loop's preflight check that
+# the working tree be completely clean.
+cesium-request-cache.sqlite*
+
+# Working image files at the project root that Unreal does not consume.
+# ArchVizExplorer.png IS tracked -- UE picks it up as the project thumbnail by
+# filename convention. These two are not wired to anything: SplashAV.png needs
+# a DefaultEngine.ini entry or Content/Splash/ placement before UE will show
+# it, and ArchVizExplorerMAP.png is byte-identical to the thumbnail. Both stay
+# on disk; they are just kept out of a deliberately text-only repo.
+ArchVizExplorerMAP.png
+SplashAV.png
 
 # IDE / toolchain
 .vs/
